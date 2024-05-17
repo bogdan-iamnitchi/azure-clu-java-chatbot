@@ -1,0 +1,26 @@
+URL: 
+
+Text problema:
+Proiectul este realizat in intregime de mine Iamnitchi Bogdan. Am lucrat cu CLU Azure unde am implementat un Knowledge Base KB, in care am definti mai multe intentii pe care modelul sa le detecteze precum sa invete si sa extraga enumite entitatii din propozitiile analizate. Modelul final contine 7 intentii in jur de 5 entitati diferite si a fost antrenat pe 90 de exemple de propozitii facandu-i deploy in Azure. Pentru a exemplifica functionarea modelului am implementat in Java folosind InteliJ o aplicatie de tip Consola care face requesturi care modelul nostru din Azure care analizeaza propozitia si raspunde cu un fisier Json care contine analiza completa si care sunt defapt intentiile prezise, astfel am simulat un Assistant ChatBot cu ajutorul caruia poti vedea vremea din fiecare oras din lume, poti adauga remindere pe o perioada de o saptamana si poti verifica ce activitati ai planificate atat pe toata saptamana cat si pe fiecare zi in parte.
+
+Explicatii detaliate precum si actiunile posibile se pot vedea in aplicatie, am comentat tot incat sa fie cat mai clar.
+
+Avantaje:
+- e foarte bine sa ai un model predefinit pe care il poti antrena cu propozitile tale astfel nu trebuie sa hardcodezi fiecare raspuns
+- aduce un nivel de inteligenta aplicatiei tale poti pune intrebarea in mai multe moduri si aplicatia tot sa inteleaga ce vrei
+- in Azure ai parte de resurse foarte puternice pt a antrena modelu mai puternice poate de cat avem local
+
+Dezavantaje:
+- in CLU Azure dureaza pana faci toate propozitile si subliniez enitatile
+- trebuie sa te asiguri ca il antrenezi pe date cat mai relevante
+- requesturile la model sunt destul de complicate se folosesc multe chei de securitate
+
+Imbunatiri ulterioare:
+- proiectul de poate scala la nivel mai inalt spre exemplu sa folosesc API de la Google Calendar si sa adaug eventurile in caledarul propriu si nu intr-o lista
+- se poate folosi framework-ul BotFrameworks care ne permite extinde capacitatile pe care le poate face chatbotul
+- folosind Azure se poate da deploy la bot astfel incat sa fie disponibil pe platforme precum Teams / Telegram / Whatsapp
+
+Autoevaluare
+- am lucrat doar singur si a fost un volum mare de munca
+- cred ca am puncatat toate aspectele mentionate in autoevaloare
+- nota finala: 10
