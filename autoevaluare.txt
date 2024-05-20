@@ -16,11 +16,11 @@ Dezavantaje:
 - requesturile la model sunt destul de complicate se folosesc multe chei de securitate
 
 Imbunatiri ulterioare:
-- proiectul de poate scala la nivel mai inalt spre exemplu sa folosesc API de la Google Calendar si sa adaug eventurile in caledarul propriu si nu intr-o lista
+- proiectul se poate scala la nivel mai inalt spre exemplu sa folosesc API de la Google Calendar si sa adaug eventurile in caledarul propriu si nu intr-o lista
 - se poate folosi framework-ul BotFrameworks care ne permite extinde capacitatile pe care le poate face chatbotul
 - folosind Azure se poate da deploy la bot astfel incat sa fie disponibil pe platforme precum Teams / Telegram / Whatsapp
 
 Autoevaluare
-- am lucrat doar singur si a fost un volum mare de munca
-- cred ca am puncatat toate aspectele mentionate in autoevaloare
+- am lucrat singur si a fost un volum mare de munca
+- cred ca am puncatat toate aspectele mentionate in autoevaloarea primita
 - nota finala: 10

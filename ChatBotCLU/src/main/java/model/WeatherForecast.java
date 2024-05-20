@@ -50,7 +50,7 @@ public class WeatherForecast {
 
     // metoda care returneaza starea vremii pentru un oras dat
     public String getWeatherStatus(String city) {
-        // obtinem rasounsul de la API-ul OpenWeatherMap
+        // obtinem rasounsul de la API-ul OpenWeatherMaps
         JSONObject response = this.getWeatherData(city);
         // extragem informatiile despre temperatura (Kelvin) si starea vremii
         JSONObject main = response.getJSONObject("main");
